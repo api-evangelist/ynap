@@ -1,7 +1,24 @@
 aid: ynap
-name: ynap
-description: ynap is a company surfaced as a portfolio company of balderton-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ynap.png
+name: YOOX NET-A-PORTER (YNAP)
+description: YOOX NET-A-PORTER (YNAP) is a leading digital multi-brand luxury fashion group operating
+  the online stores NET-A-PORTER, MR PORTER, YOOX, and THE OUTNET. Following the 2025 acquisition by
+  Mytheresa, the group operates under the parent LuxExperience B.V. (NYSE ticker "LUXE"), pairing
+  full-price curated luxury with off-price destinations. YNAP was surfaced as a portfolio company of
+  balderton-capital and added to the API Evangelist network. The group runs an engineering organization
+  (YNAP Tech) and maintains public GitHub open-source tooling, but publishes no public developer API,
+  OpenAPI specification, or partner developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ynap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Luxury
+- Fashion
+- E-Commerce
+- Retail
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ynap-domain-security.yml
 - type: Website
   url: http://www.ynap.com/
+- type: Blog
+  url: https://medium.com/ynap-tech
+- type: GitHubOrganization
+  url: https://github.com/net-a-porter-mobile
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
