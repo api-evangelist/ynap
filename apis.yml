@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.ynap.com/', status: 301, note: 'declared website redirects to https://investors.luxexperience.com/overview/ — a different registrable domain (ynap.com -> luxexperience.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ynap.png
 name: YOOX NET-A-PORTER (YNAP)
 description: YOOX NET-A-PORTER (YNAP) is a leading digital multi-brand luxury fashion group operating
