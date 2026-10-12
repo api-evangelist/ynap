@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "ynap",
+    "captured_at": "2026-10-11T194728",
+    "source_url": "http://www.ynap.com/",
+    "source_type": "Website",
+    "file": "ynap-2026-10-11T194728.png",
+    "bytes": 123797,
+    "capture": "playwright-local"
+  }
+]
